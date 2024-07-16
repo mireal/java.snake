@@ -5,6 +5,10 @@ public record Pointer2D(int x,int y) {
         return new Pointer2D(x + pointer2D.x(),y + pointer2D.y());
     }
 
+    public Pointer2D sub(Pointer2D pointer2D) {
+        return new Pointer2D(x - pointer2D.x(),y - pointer2D.y());
+    }
+
     @Override
     public String toString() {
         return "Pointer2D{" +

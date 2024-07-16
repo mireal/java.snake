@@ -28,4 +28,6 @@ class Pointer2DTest {
         Pointer2D pointer2 = new Pointer2D(6453,6544);
         assertNotEquals(pointer1,pointer2);
     }
+
+
 }
