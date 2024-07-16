@@ -3,17 +3,17 @@ package ru.snake.game.Snake;
 import ru.snake.game.Directions.Directions;
 import ru.snake.game.Pointer2D.Pointer2D;
 
-public abstract class AbstractSnake {
+public interface SnakeInterface {
     /**
      * @return {@code int} length of a snake body
      */
-    public abstract int getSLength();
+    int getLength();
 
     /**
      * @return {@code Directions} Enum direction representing
      * the current direction of a snake
      */
-    public abstract Directions getDirection();
+    Directions getDirection();
 
     /**
      * Call this method to make an attempt to change the snake direction.
@@ -22,14 +22,15 @@ public abstract class AbstractSnake {
      * {@code false} if direction could be set to the opposite
      * and the snake would move into itself.
      */
-    public abstract boolean setDirection(Directions direction);
+    boolean setDirection(Directions direction);
+
     /**
      * Call this method to make an attempt to extend the snake to the set direction.
      *
      * @return {@code true} if snake extends itself successfully.
      * {@code false} if snake extend into the border or itself.
      */
-    abstract boolean grow();
+    boolean grow();
 
     /**
      * Call this method to make an attempt to move the snake to the set direction.
@@ -37,7 +38,7 @@ public abstract class AbstractSnake {
      * @return {@code true} if snake makes a move successfully.
      * {@code false} if snake moves into the border or itself.
      */
-    abstract boolean move();
+    boolean move();
 
     /**
      * Returns array of pointers representing the snake body,
@@ -45,11 +46,12 @@ public abstract class AbstractSnake {
      *
      * @return {@code Pointer2D[]} array of snake pointers
      */
-    abstract Pointer2D[] toArray();
+    Pointer2D[] toArray();
 
     /**
      * Return Pointer2D object that store the value of the snake head position.
+     *
      * @return {@code Pointer2D} object of Snake head
      */
-    abstract Pointer2D getHeadPointer();
+    Pointer2D getHeadPointer();
 }
