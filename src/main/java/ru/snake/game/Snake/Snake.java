@@ -12,7 +12,7 @@ public class Snake implements SnakeInterface {
     Directions direction;
     int borderLimit = 10;
 
-    Snake(Pointer2D[] snakeBody) {
+    public Snake(Pointer2D[] snakeBody) {
         int len = snakeBody.length;
         Pointer2D snakeHeadPointer = snakeBody[len - 1];
         Pointer2D snakeHeadNextPointer = snakeBody[len - 2];
