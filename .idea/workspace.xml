@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af313e2-83ee-4c12-90de-16d9aedf2b68" name="Changes" comment="">
+    <list default="true" id="7af313e2-83ee-4c12-90de-16d9aedf2b68" name="Changes" comment="Added Enum Directions to set direction in Snake class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/Fruit/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/snake/game/Fruit/FoodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,26 +14,170 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mireal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mireal/java.snake.git&quot;,
+    &quot;accountId&quot;: &quot;90d40399-0dc3-4799-beab-4fdb989bd958&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jHcHGm3hUqWtzbhD1Ep9GbWI5e" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DirectionsTest.getOpposite.executor": "Run",
+    "JUnit.FoodTest.executor": "Run",
+    "JUnit.Pointer2DTest.add.executor": "Run",
+    "JUnit.Pointer2DTest.testEqualsNegative.executor": "Run",
+    "JUnit.Pointer2DTest.testEqualsPositive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "#3-fruit-class",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aria/IdeaProjects/java.snake/src/test/java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/ru/snake/game" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.snake.game.Fruit" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.snake.game" />
+      <recent name="ru.snake.game.Pointer2D" />
+      <recent name="ru.snake.game.Directions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FoodTest">
+    <configuration name="FoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.snake.game.Fruit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.snake.game.Fruit" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Fruit.FoodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pointer2DTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pointer2DTest.testEqualsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
+      <option name="METHOD_NAME" value="testEqualsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pointer2DTest.testEqualsPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
+      <option name="METHOD_NAME" value="testEqualsPositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pointer2DTest.x_Is_Immutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java.snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
+      <option name="METHOD_NAME" value="x_Is_Immutable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FoodTest" />
+        <item itemvalue="JUnit.Pointer2DTest.x_Is_Immutable" />
+        <item itemvalue="JUnit.Pointer2DTest.testEqualsPositive" />
+        <item itemvalue="JUnit.Pointer2DTest.testEqualsNegative" />
+        <item itemvalue="JUnit.Pointer2DTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +187,19 @@
       <option name="presentableId" value="Default" />
       <updated>1721047354998</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Enum Directions to set direction in Snake class">
+      <option name="closed" value="true" />
+      <created>1721048485472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721048485472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Enum Directions to set direction in Snake class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Enum Directions to set direction in Snake class" />
   </component>
 </project>
