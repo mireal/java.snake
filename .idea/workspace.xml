@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af313e2-83ee-4c12-90de-16d9aedf2b68" name="Changes" comment="Added Enum Directions to set direction in Snake class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/KeyListener/KeyEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/KeyListener/KeyboardListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/KeyListener/PressedKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/KeyListener/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/snake/game/KeyListener/KeyEventListenerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/snake/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/snake/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -24,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="#4-key-event-listener" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,18 +62,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test.executor": "Run",
     "JUnit.DirectionsTest.getOpposite.executor": "Run",
     "JUnit.FoodTest.executor": "Run",
+    "JUnit.KeyEventListenerTest.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_Escape.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_Left.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_Left_Then_Right.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_S_As_Down.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_Space.executor": "Run",
+    "JUnit.KeyEventListenerTest.getPressedKeys_Space_And_Escape.executor": "Run",
     "JUnit.Pointer2DTest.add.executor": "Run",
     "JUnit.Pointer2DTest.testEqualsNegative.executor": "Run",
     "JUnit.Pointer2DTest.testEqualsPositive.executor": "Run",
+    "JUnit.SnakeTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "4-add-key-listener",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/aria/IdeaProjects/java.snake/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -82,86 +102,87 @@
       <recent name="ru.snake.game.Fruit" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.snake.game.KeyListener" />
       <recent name="ru.snake.game" />
       <recent name="ru.snake.game.Pointer2D" />
       <recent name="ru.snake.game.Directions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FoodTest">
-    <configuration name="FoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="KeyEventListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.snake.game.Fruit.*" />
+          <option name="PATTERN" value="ru.snake.game.KeyListener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.snake.game.Fruit" />
-      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Fruit.FoodTest" />
+      <option name="PACKAGE_NAME" value="ru.snake.game.KeyListener" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.KeyListener.KeyEventListenerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pointer2DTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyEventListenerTest.getPressedKeys_Left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="PATTERN" value="ru.snake.game.KeyListener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
-      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="PACKAGE_NAME" value="ru.snake.game.KeyListener" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.KeyListener.KeyEventListenerTest" />
+      <option name="METHOD_NAME" value="getPressedKeys_Left" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pointer2DTest.testEqualsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyEventListenerTest.getPressedKeys_Left_Then_Right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="PATTERN" value="ru.snake.game.KeyListener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
-      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
-      <option name="METHOD_NAME" value="testEqualsNegative" />
+      <option name="PACKAGE_NAME" value="ru.snake.game.KeyListener" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.KeyListener.KeyEventListenerTest" />
+      <option name="METHOD_NAME" value="getPressedKeys_Left_Then_Right" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pointer2DTest.testEqualsPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyEventListenerTest.getPressedKeys_Space" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="PATTERN" value="ru.snake.game.KeyListener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
-      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
-      <option name="METHOD_NAME" value="testEqualsPositive" />
+      <option name="PACKAGE_NAME" value="ru.snake.game.KeyListener" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.KeyListener.KeyEventListenerTest" />
+      <option name="METHOD_NAME" value="getPressedKeys_Space" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pointer2DTest.x_Is_Immutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyEventListenerTest.getPressedKeys_Space_And_Escape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java.snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.snake.game.Pointer2D.*" />
+          <option name="PATTERN" value="ru.snake.game.KeyListener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.snake.game.Pointer2D" />
-      <option name="MAIN_CLASS_NAME" value="ru.snake.game.Pointer2D.Pointer2DTest" />
-      <option name="METHOD_NAME" value="x_Is_Immutable" />
+      <option name="PACKAGE_NAME" value="ru.snake.game.KeyListener" />
+      <option name="MAIN_CLASS_NAME" value="ru.snake.game.KeyListener.KeyEventListenerTest" />
+      <option name="METHOD_NAME" value="getPressedKeys_Space_And_Escape" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Pointer2DTest.x_Is_Immutable" />
-        <item itemvalue="JUnit.Pointer2DTest.testEqualsPositive" />
-        <item itemvalue="JUnit.Pointer2DTest.testEqualsNegative" />
-        <item itemvalue="JUnit.Pointer2DTest.add" />
-        <item itemvalue="JUnit.FoodTest" />
+        <item itemvalue="JUnit.KeyEventListenerTest" />
+        <item itemvalue="JUnit.KeyEventListenerTest.getPressedKeys_Left" />
+        <item itemvalue="JUnit.KeyEventListenerTest.getPressedKeys_Space" />
+        <item itemvalue="JUnit.KeyEventListenerTest.getPressedKeys_Space_And_Escape" />
+        <item itemvalue="JUnit.KeyEventListenerTest.getPressedKeys_Left_Then_Right" />
       </list>
     </recent_temporary>
   </component>
