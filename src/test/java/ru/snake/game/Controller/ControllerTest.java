@@ -16,7 +16,6 @@ import ru.snake.game.Snake.SnakeInterface;
 import ru.snake.game.UserInterface.SnakeUserInterface;
 
 
-import java.awt.geom.Point2D;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
