@@ -18,7 +18,6 @@ import ru.snake.game.UserInterface.SnakeUserInterface;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 
@@ -105,7 +104,6 @@ class ControllerTest {
 
     @Test
     void move_Increase_Snake_Length_After_Fruit_Collision() throws NoSuchFieldException, IllegalAccessException {
-        System.out.println(Arrays.toString(getBigSnakeArray()));
         when(pressedKeys.getDirection()).thenReturn(Directions.RIGHT);
         when(listener.getPressedKeys()).thenReturn(pressedKeys);
 
