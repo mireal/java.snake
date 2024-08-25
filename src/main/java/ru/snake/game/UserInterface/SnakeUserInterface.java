@@ -21,4 +21,10 @@ public interface SnakeUserInterface {
      * @param fruit Pointer2D object containing the fruit coordinate.
      */
     void drawFruit(Pointer2D fruit);
+
+    /**
+     * Updates the user interface by redrawing the elements on the canvas.
+     * Should be called after calling drawSnake and drawFruit to ensure the re-drawing.
+     */
+    void update();
 }

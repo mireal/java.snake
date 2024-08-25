@@ -28,8 +28,6 @@ public class ConsoleInterface implements SnakeUserInterface {
         for (Pointer2D point : snake) {
             grid[point.y()][point.x()] = SNAKE;
         }
-
-        printGrid();
     }
 
     @Override
@@ -37,9 +35,15 @@ public class ConsoleInterface implements SnakeUserInterface {
         grid[fruit.y()][fruit.x()] = FOOD;
     }
 
+    @Override
+    public void update() {
+        printGrid();
+    }
+
     private void printGrid() {
         System.out.println(" ______________________________ ");
-        for (char[] chars : grid) {
+        for (int i = grid.length - 1; i >= 0; i--) {
+            char[] chars = grid[i];
             System.out.print("|");
             for (char c : chars) {
                 System.out.print(" " + c + " ");
