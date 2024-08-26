@@ -5,7 +5,7 @@ import ru.snake.game.Pointer2D.Pointer2D;
 public class Food {
     private Pointer2D food;
 
-    Food(Pointer2D food) {
+    public Food(Pointer2D food) {
         this.food = food;
     }
 

@@ -34,7 +34,7 @@ public class Snake implements SnakeInterface {
 
     @Override
     public boolean setDirection(Directions direction) {
-        if (direction == this.direction.getOpposite()) return false;
+        if (direction == null || direction == this.direction.getOpposite()) return false;
         this.direction = direction;
         return true;
     }

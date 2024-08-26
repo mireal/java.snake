@@ -11,7 +11,7 @@ import ru.snake.game.Directions.Directions;
 public class KeyboardListener implements KeyEventListener, NativeKeyListener {
     private PressedKeys pressedKeys;
 
-    KeyboardListener() {
+    public KeyboardListener() {
         pressedKeys = new PressedKeys();
         init();
     }
