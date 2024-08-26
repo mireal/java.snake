@@ -24,7 +24,7 @@ import java.util.List;
 import static org.mockito.Mockito.when;
 
 class ControllerTest {
-    SnakeGameController controller;
+    Controller controller;
     SnakeUserInterface ui;
     KeyEventListener listener;
     PressedKeys pressedKeys;
@@ -33,7 +33,7 @@ class ControllerTest {
     void setUp() {
         ui = Mockito.mock(SnakeUserInterface.class);
         listener = Mockito.mock(KeyEventListener.class);
-        controller = new Controller(ui, listener);
+        controller = new SnakeGameController(ui, listener);
         pressedKeys = Mockito.mock(PressedKeys.class);
     }
 
